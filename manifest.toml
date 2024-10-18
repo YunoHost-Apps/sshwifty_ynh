@@ -5,7 +5,7 @@ packaging_format = 2
 id = "sshwifty"
 name = "Sshwifty"
 description.en = "Web SSH & Telnet (WebSSH & WebTelnet client)"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.fr = "Web SSH et Telnet (client Web SSH et Web Telnet)"
 
 version = "0.3.14~ynh1"
 
@@ -45,6 +45,7 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
+    in_subdir = false
     url = "https://github.com/nirui/sshwifty/releases/download/0.3.14-beta-release-prebuild/sshwifty_0.3.14-beta-release_linux_amd64.tar.gz"
     sha256 = "6209e75aa9edcee6d20a4739ae077a7c2e9dfcec95f39632d0e439fb1694fdec"
 
@@ -58,4 +59,3 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
-
