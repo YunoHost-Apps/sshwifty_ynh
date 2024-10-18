@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Sshwifty is a SSH and Telnet client made for the Web, allow you to access SSH and Telnet services right from your web browser.
