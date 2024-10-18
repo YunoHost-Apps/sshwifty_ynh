@@ -12,7 +12,7 @@ version = "1.0~ynh1"
 maintainers = ["johndoe"]
 
 [upstream]
-license = "free" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
+license = "free"
 website = "https://example.com"
 demo = "https://sshwifty-demo.nirui.org/"
 admindoc = "https://yunohost.org/packaging_apps"
@@ -26,44 +26,19 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
-# FIXME: replace with an **estimate** minimum disk and RAM requirements. e.g. 20M, 400M, 1G...
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
 
 [install]
     [install.domain]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
     type = "domain"
-
-    [install.path]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
-    type = "path"
-    default = "/example"
 
     [install.init_main_permission]
     type = "group"
     default = "visitors"
-
-    [install.language]
-    ask.en = "Choose the application language"
-    ask.fr = "Choisissez la langue de l'application"
-    type = "select"
-    choices = ["fr", "en"]
-    default = "fr"
-
-    [install.admin]
-    type = "user"
-
-    [install.password]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
-    # Note that user-provided passwords questions are not automatically saved as setting
-    help.en = "Use the help field to add an information for the admin about this question."
-    help.fr = "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
-    type = "password"
 
 [resources]
 
@@ -84,8 +59,3 @@ ram.runtime = "50M"
 
     [resources.ports]
 
-    [resources.apt]
-    packages = "mariadb-server, deb1, deb2, php8.0-foo, php8.0-bar"
-
-    [resources.database]
-    type = "mysql"
