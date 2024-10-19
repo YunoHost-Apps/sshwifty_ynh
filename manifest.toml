@@ -12,11 +12,8 @@ version = "0.3.14~ynh1"
 maintainers = ["eric_G"]
 
 [upstream]
-license = "free"
-website = "https://example.com"
+license = "AGPL-3.0"
 demo = "https://sshwifty-demo.nirui.org/"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/nirui/sshwifty"
 
 [integration]
