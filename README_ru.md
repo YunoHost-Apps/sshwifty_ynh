@@ -28,9 +28,6 @@ Sshwifty is a SSH and Telnet client made for the Web, allow you to access SSH an
 
 ## Документация и ресурсы
 
-- Официальный веб-сайт приложения: <https://example.com>
-- Официальная документация пользователя: <https://yunohost.org/apps>
-- Официальная документация администратора: <https://yunohost.org/packaging_apps>
 - Репозиторий кода главной ветки приложения: <https://github.com/nirui/sshwifty>
 - Магазин YunoHost: <https://apps.yunohost.org/app/sshwifty>
 - Сообщите об ошибке: <https://github.com/YunoHost-Apps/sshwifty_ynh/issues>
