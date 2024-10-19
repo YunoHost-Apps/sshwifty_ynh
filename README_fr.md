@@ -16,8 +16,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
-
+Sshwifty est un client SSH et Telnet conçu pour le Web, vous permettant d'accéder aux services SSH et Telnet directement depuis votre navigateur Web.
 
 **Version incluse :** 0.3.14~ynh1
 
@@ -29,9 +28,6 @@ Ceci est une fausse description des fonctionalités de l'app
 
 ## Documentations et ressources
 
-- Site officiel de l’app : <https://example.com>
-- Documentation officielle utilisateur : <https://yunohost.org/apps>
-- Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 - Dépôt de code officiel de l’app : <https://github.com/nirui/sshwifty>
 - YunoHost Store : <https://apps.yunohost.org/app/sshwifty>
 - Signaler un bug : <https://github.com/YunoHost-Apps/sshwifty_ynh/issues>
