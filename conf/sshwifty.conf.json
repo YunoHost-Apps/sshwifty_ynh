@@ -22,7 +22,7 @@
   ],
   "Presets": [
     {
-      "Title": "SDF.org Unix Shell",
+      "Title": "SD F.org Unix Shell",
       "Type": "SSH",
       "Host": "sdf.org:22",
       "Meta": {
