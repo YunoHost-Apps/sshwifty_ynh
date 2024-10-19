@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Sshwifty est un client SSH et Telnet conçu pour le Web, vous permettant d'accéder aux services SSH et Telnet directement depuis votre navigateur Web.
