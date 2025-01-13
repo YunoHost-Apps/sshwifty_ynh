@@ -53,7 +53,10 @@ ram.runtime = "50M"
     armhf.url = "https://github.com/nirui/sshwifty/releases/download/0.3.14-beta-release-prebuild/sshwifty_0.3.14-beta-release_linux_arm.tar.gz"
     armhf.sha256 = "6f23222167c066a8233f33d7470a1c16c28c606f2ae8f55e00c163bba7bc3147"
 
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.amd64 = "sshwifty_.*_linux_amd64.tar.gz"
+    autoupdate.asset.arm64 = "sshwifty_.*_linux_arm64.tar.gz"
+    autoupdate.asset.armhf = "sshwifty_.*_linux_arm.tar.gz"
 
     [resources.system_user]
 
