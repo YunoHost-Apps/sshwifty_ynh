@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Sshwifty voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/sshwifty.svg)](https://ci-apps.yunohost.org/ci/apps/sshwifty/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/sshwifty.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/sshwifty.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/sshwifty)](https://ci-apps.yunohost.org/ci/apps/sshwifty/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/sshwifty)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/sshwifty)
 
 [![Sshwifty met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=sshwifty)
 

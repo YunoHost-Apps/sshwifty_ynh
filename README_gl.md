@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Sshwifty para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/sshwifty.svg)](https://ci-apps.yunohost.org/ci/apps/sshwifty/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/sshwifty.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/sshwifty.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/sshwifty)](https://ci-apps.yunohost.org/ci/apps/sshwifty/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/sshwifty)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/sshwifty)
 
 [![Instalar Sshwifty con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=sshwifty)
 

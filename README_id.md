@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Sshwifty untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/sshwifty.svg)](https://ci-apps.yunohost.org/ci/apps/sshwifty/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/sshwifty.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/sshwifty.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/sshwifty)](https://ci-apps.yunohost.org/ci/apps/sshwifty/)
+![Status kerja](https://apps.yunohost.org/badge/state/sshwifty)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/sshwifty)
 
 [![Pasang Sshwifty dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=sshwifty)
 

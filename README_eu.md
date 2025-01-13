@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Sshwifty YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/sshwifty.svg)](https://ci-apps.yunohost.org/ci/apps/sshwifty/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/sshwifty.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/sshwifty.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/sshwifty)](https://ci-apps.yunohost.org/ci/apps/sshwifty/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/sshwifty)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/sshwifty)
 
 [![Instalatu Sshwifty YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=sshwifty)
 

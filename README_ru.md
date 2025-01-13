@@ -5,7 +5,9 @@
 
 # Sshwifty для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/sshwifty.svg)](https://ci-apps.yunohost.org/ci/apps/sshwifty/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/sshwifty.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/sshwifty.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/sshwifty)](https://ci-apps.yunohost.org/ci/apps/sshwifty/)
+![Состояние работы](https://apps.yunohost.org/badge/state/sshwifty)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/sshwifty)
 
 [![Установите Sshwifty с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=sshwifty)
 

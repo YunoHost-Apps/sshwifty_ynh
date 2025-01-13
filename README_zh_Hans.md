@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Sshwifty
 
-[![集成程度](https://dash.yunohost.org/integration/sshwifty.svg)](https://ci-apps.yunohost.org/ci/apps/sshwifty/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/sshwifty.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/sshwifty.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/sshwifty)](https://ci-apps.yunohost.org/ci/apps/sshwifty/)
+![工作状态](https://apps.yunohost.org/badge/state/sshwifty)
+![维护状态](https://apps.yunohost.org/badge/maintained/sshwifty)
 
 [![使用 YunoHost 安装 Sshwifty](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=sshwifty)
 
