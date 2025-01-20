@@ -7,7 +7,7 @@ name = "Sshwifty"
 description.en = "Web SSH & Telnet (WebSSH & WebTelnet client)"
 description.fr = "Web SSH et Telnet (client Web SSH et Web Telnet)"
 
-version = "0.3.14~ynh1"
+version = "0.3.16~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -46,14 +46,15 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    amd64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.14-beta-release-prebuild/sshwifty_0.3.14-beta-release_linux_amd64.tar.gz"
-    amd64.sha256 = "6209e75aa9edcee6d20a4739ae077a7c2e9dfcec95f39632d0e439fb1694fdec"
-    arm64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.14-beta-release-prebuild/sshwifty_0.3.14-beta-release_linux_arm64.tar.gz"
-    arm64.sha256 = "192ac6f4e705df4010085f8ac092e96af0ece3b7ac21fd5030c564c50728526f"
-    armhf.url = "https://github.com/nirui/sshwifty/releases/download/0.3.14-beta-release-prebuild/sshwifty_0.3.14-beta-release_linux_arm.tar.gz"
-    armhf.sha256 = "6f23222167c066a8233f33d7470a1c16c28c606f2ae8f55e00c163bba7bc3147"
+    amd64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.16-beta-release-prebuild/sshwifty_0.3.16-beta-release_linux_amd64.tar.gz"
+    amd64.sha256 = "10e89ec55a380f74d6c62145d273c66a09d7f0dc70a2712682c9799e28017489"
+    arm64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.16-beta-release-prebuild/sshwifty_0.3.16-beta-release_linux_arm64.tar.gz"
+    arm64.sha256 = "e95c868fe16e838c13af68712cd8a5d9db0ecd74b7aedf6083bbe8a987358a64"
+    armhf.url = "https://github.com/nirui/sshwifty/releases/download/0.3.16-beta-release-prebuild/sshwifty_0.3.16-beta-release_linux_arm.tar.gz"
+    armhf.sha256 = "ae354dc369fa5eba224c2dae58d067a15875f8d971af4086ebe3050c312ce82f"
 
     autoupdate.strategy = "latest_github_release"
+    autoupdate.version_regex = "^(.*)-beta-release-prebuild$"
     autoupdate.asset.amd64 = "sshwifty_.*_linux_amd64.tar.gz"
     autoupdate.asset.arm64 = "sshwifty_.*_linux_arm64.tar.gz"
     autoupdate.asset.armhf = "sshwifty_.*_linux_arm.tar.gz"
