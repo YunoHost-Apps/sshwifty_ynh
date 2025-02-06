@@ -18,7 +18,7 @@ Nie powinno być ono edytowane ręcznie.
 
 ## Przegląd
 
-Sshwifty is a SSH and Telnet client made for the Web, allow you to access SSH and Telnet services right from your web browser.
+SSHwifty is a SSH and Telnet client made for the Web, allow you to access SSH and Telnet services right from your web browser.
 
 **Dostarczona wersja:** 0.3.17~ynh1
 
