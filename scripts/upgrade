@@ -34,9 +34,6 @@ ynh_script_progression "Updating $app's configuration files..."
 
 ynh_config_add --template="sshwifty.conf.json" --destination="$install_dir/sshwifty.conf.json"
 
-chmod 400 "$install_dir/sshwifty.conf.json"
-chown "$app:$app" "$install_dir/sshwifty.conf.json"
-
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
