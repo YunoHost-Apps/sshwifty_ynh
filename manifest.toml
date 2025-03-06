@@ -7,7 +7,7 @@ name = "Sshwifty"
 description.en = "Web SSH & Telnet (WebSSH & WebTelnet client)"
 description.fr = "Web SSH et Telnet (client Web SSH et Web Telnet)"
 
-version = "0.3.18~ynh1"
+version = "0.3.19~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -46,12 +46,12 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    amd64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.18-beta-release-prebuild/sshwifty_0.3.18-beta-release_linux_amd64.tar.gz"
-    amd64.sha256 = "cfca61a9faa8b9df20f72da3e97d27043c87f63385d20cd1a7bd7dce50f404a8"
-    arm64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.18-beta-release-prebuild/sshwifty_0.3.18-beta-release_linux_arm64.tar.gz"
-    arm64.sha256 = "398d2b777188c48f636bc15fd58bb65253c597280041c42cbd3a14ea55a5f4f8"
-    armhf.url = "https://github.com/nirui/sshwifty/releases/download/0.3.18-beta-release-prebuild/sshwifty_0.3.18-beta-release_linux_arm.tar.gz"
-    armhf.sha256 = "32985e796e82607d2c22ceeee09003889fc213b86ff9f85ce66e318468cf36fe"
+    amd64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.19-beta-release-prebuild/sshwifty_0.3.19-beta-release_linux_amd64.tar.gz"
+    amd64.sha256 = "638da8e924a2aff4782b523901ea1c27441f6e57a1c3b616b9451e73f215612b"
+    arm64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.19-beta-release-prebuild/sshwifty_0.3.19-beta-release_linux_arm64.tar.gz"
+    arm64.sha256 = "1e71eac6bdce1af98147171882a7f01f918a06ffe039f533ba31109c73b81ea9"
+    armhf.url = "https://github.com/nirui/sshwifty/releases/download/0.3.19-beta-release-prebuild/sshwifty_0.3.19-beta-release_linux_arm.tar.gz"
+    armhf.sha256 = "7e6548639f212adc5008deacc6eea6e2a91244a476d05364610ed31b6b52ddef"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.version_regex = "^(.*)-beta-release-prebuild$"
