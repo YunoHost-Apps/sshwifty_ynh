@@ -20,7 +20,7 @@
 
 SSHwifty is a SSH and Telnet client made for the Web, allow you to access SSH and Telnet services right from your web browser.
 
-**分发版本：** 0.3.18~ynh1
+**分发版本：** 0.3.19~ynh1
 
 **演示：** <https://sshwifty-demo.nirui.org/>
 
