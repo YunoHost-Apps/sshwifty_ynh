@@ -7,7 +7,7 @@ name = "Sshwifty"
 description.en = "Web SSH & Telnet (WebSSH & WebTelnet client)"
 description.fr = "Web SSH et Telnet (client Web SSH et Web Telnet)"
 
-version = "0.3.25~ynh1"
+version = "0.4.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -17,7 +17,7 @@ demo = "https://sshwifty-demo.nirui.org/"
 code = "https://github.com/nirui/sshwifty"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -46,12 +46,12 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    amd64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.25-beta-release-prebuild/sshwifty_0.3.25-beta-release_linux_amd64.tar.gz"
-    amd64.sha256 = "cdf139cfa9562a56bc5d38e4c49adc3a4201762951d32ed87fcff344bab85c3f"
-    arm64.url = "https://github.com/nirui/sshwifty/releases/download/0.3.25-beta-release-prebuild/sshwifty_0.3.25-beta-release_linux_arm64.tar.gz"
-    arm64.sha256 = "6729d87d62af64b45daa36eefe38c60e0e15aa09c26668205b16ecea7ed38a20"
-    armhf.url = "https://github.com/nirui/sshwifty/releases/download/0.3.25-beta-release-prebuild/sshwifty_0.3.25-beta-release_linux_arm.tar.gz"
-    armhf.sha256 = "cc837ad3228e329400926a40f57b3d5f2dede765eaaaae6e7c4e489798bcaf71"
+    amd64.url = "https://github.com/nirui/sshwifty/releases/download/0.4.1-beta-release-prebuild/sshwifty_0.4.1-beta-release_linux_amd64.tar.gz"
+    amd64.sha256 = "b1cd672ed3a37a834c623c64ef669c3417e8cf7d94d95a89bef5d5107e9889b7"
+    arm64.url = "https://github.com/nirui/sshwifty/releases/download/0.4.1-beta-release-prebuild/sshwifty_0.4.1-beta-release_linux_arm64.tar.gz"
+    arm64.sha256 = "d28f13bf5d3692218ac500da43ff9de29b779c006cd86b893ed55d3a57d27128"
+    armhf.url = "https://github.com/nirui/sshwifty/releases/download/0.4.1-beta-release-prebuild/sshwifty_0.4.1-beta-release_linux_arm.tar.gz"
+    armhf.sha256 = "4386eaa1641020af6b6f29d04b061b318a9d5ebb0723668b73c5552be95b04b3"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.version_regex = "^(.*)-beta-release-prebuild$"
